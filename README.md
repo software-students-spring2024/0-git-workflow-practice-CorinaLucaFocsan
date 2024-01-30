@@ -1,3 +1,7 @@
 # Git Practice
 
 [This article](https://netflixtechblog.com/detecting-scene-changes-in-audiovisual-content-77a61d3eaad6) discusses cutting-edge techniques Netflix is using for detecting scene boundaries in their audiovisual content. I found this article interesting because of how they navigate elements like frames, shots, and scenes in movies and TV shows. Especially since segmenting scences also relies on grasping the narrative and emotional cues. Netflix describes two innovative approaches to address this: one involves aligning screenplay text with time-stamped text to pinpoint scene transitions, and the other uses a  bidirectional GRU model, enriched with audio features, to predict scene endings. Overall, this blog posts leaves me excited about Netflix's future plans to integrate these techniques into a unified model and expand their application to broader video understanding tasks.
+
+Comment from Zhongqian Chen:
+
+Scene boundary detection is definitely something that's important to audiovisual content production and is worth being further developed and studied on. I've heard that the previous approach was to use nearby shot clustering for unsupervised learning or to use manually labeled data for supervised training, but the results weren't that ideal and will lead to relatively high cost. Thus I find the screenplay text aligning technique mentioned in this article smart and interesting, and what lies ahead for these techniques is definitely worth looking forward to.
